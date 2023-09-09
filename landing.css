@@ -1,0 +1,187 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    text-align: left;
+    word-spacing: 5cap;
+    
+    
+}
+
+nav ul {
+    list-style: none;
+    border-color: #fff;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.first{
+    border: 1px solid white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+/* Hero section styles */
+.hero {
+    /* background-size: cover; */
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero p {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: xx-large;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Destinations section styles */
+.destinations {
+    color:black;
+    background-color:transparent;
+    height: 1000px;
+    width: 355px;
+    padding: 500px;
+    text-align:center;
+}
+#heading{
+    color: white;
+    background-color: transparent;
+    font-size:4rem;
+}
+.destinations h2 {
+    font-size: 8rem;
+}
+
+.destination {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333;
+    font-size: large;
+    color: white;
+}
+
+.destination img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Services section styles */
+.services {
+    background-color:transparent;
+    padding: 100px 0;
+    text-align: center;
+    background-size: 50px;
+    width: 100%;
+    
+}
+
+.services h2 {
+    font-size: 4rem;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.service {
+    margin: 20px;
+    padding: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: larger;
+    background-color:#333;
+    color: #fff;
+}
+
+.service i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Contact form styles */
+.contact-form {
+    text-align: center ;
+    padding: 80px 0;
+}
+
+.contact-form h2 {
+    font-size: 4rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #fff;
+    color: #333;
+}
